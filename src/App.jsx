@@ -1,12 +1,12 @@
 import './App.css'
-import PokeDex from './components/Pokedex/Pokedex.jsx'
+import CustomRoutes from './routes/CustomRoutes.jsx'
 
 function App() {
 
 
   return (
     <>
-    <PokeDex/>
+    <CustomRoutes/>
     </>
   )
 }

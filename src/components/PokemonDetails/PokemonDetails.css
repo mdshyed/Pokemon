@@ -1,0 +1,93 @@
+/* Page background */
+.pokemon-details {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f6f8fc, #e9eef5);
+    padding: 2rem;
+}
+
+/* Main card */
+.pokemon-card {
+    width: 360px;
+    background: #ffffff;
+    border-radius: 24px;
+    padding: 2.5rem 2rem;
+    text-align: center;
+
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
+}
+
+/* Image container */
+.pokemon-image {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 1.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Name */
+.pokemon-name {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #2c2f36;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+}
+
+/* Info text */
+.pokemon-info {
+    font-size: 1.1rem;
+    color: #5a5f6b;
+    margin-bottom: 0.4rem;
+}
+
+/* Types */
+.pokemon-types {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+    margin: 1.5rem 0 2rem;
+    flex-wrap: wrap;
+}
+
+.pokemon-type {
+    background: #e3f2fd;
+    color: #1565c0;
+    padding: 0.45rem 1.1rem;
+    border-radius: 20px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Back button */
+.back-btn {
+    display: block;
+    width: 100%;
+    padding: 0.9rem 0;
+
+    background: #2f3542;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+    background: #1e222b;
+    transform: translateY(-2px);
+}
